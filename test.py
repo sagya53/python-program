@@ -1,11 +1,17 @@
-a = 10
-b = 10
-print(a, b)
-print(id(a), id(b))
-print(type(a), type(b))
-c = "Hello"
-for c in range(0,15):
-    print(c)
+# Creating bytearray
+a = bytearray((12, 8, 25, 2))
+print("Creating Bytearray:")
+print(a)
 
-_d = 10
-print(_d)
+# accessing elements
+print("\nAccessing Elements:", a[1])
+
+# modifying elements
+a[1] = 3
+print("\nAfter Modifying:")
+print(a)
+
+# Appending elements
+a.append(30)
+print("\nAfter Adding Elements:")
+print(a)
