@@ -1,0 +1,9 @@
+#Number data types:
+no = 25
+print("no =", no)
+print("type(no) =", type(no))
+print("id(no) =", id(no))
+no = 26
+print("no =", no)
+print("type(no) =", type(no))
+print("id(no) =", id(no))
